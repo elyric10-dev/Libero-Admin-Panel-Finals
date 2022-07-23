@@ -1,0 +1,655 @@
+/*CUSTOM CSS CLASSES*/
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+
+/*DISPLAY*/
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.table {
+    display: table;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+
+/*GRID TEMPLATE COLUMNS*/
+
+.grid-template-columns-none {
+    grid-template-columns: none;
+}
+
+.grid-template-columns-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-template-columns-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-template-columns-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-template-columns-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-template-columns-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.grid-template-columns-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-template-columns-7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.grid-template-columns-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.grid-template-columns-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+
+.grid-template-columns-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.grid-template-columns-11 {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+
+.grid-template-columns-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-template-columns-13 {
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+}
+
+.grid-template-columns-14 {
+    grid-template-columns: repeat(14, minmax(0, 1fr));
+}
+
+.grid-template-columns-15 {
+    grid-template-columns: repeat(15, minmax(0, 1fr));
+}
+
+
+/*GRID TEMPLATE rows*/
+
+.grid-template-rows-none {
+    grid-template-rows: none;
+}
+
+.grid-template-rows-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.grid-template-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.grid-template-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.grid-template-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.grid-template-rows-5 {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
+.grid-template-rows-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+.grid-template-rows-7 {
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+}
+
+.grid-template-rows-8 {
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+}
+
+.grid-template-rows-9 {
+    grid-template-rows: repeat(9, minmax(0, 1fr));
+}
+
+.grid-template-rows-10 {
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+}
+
+.grid-template-rows-11 {
+    grid-template-rows: repeat(11, minmax(0, 1fr));
+}
+
+.grid-template-rows-12 {
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+}
+
+.grid-template-rows-13 {
+    grid-template-rows: repeat(13, minmax(0, 1fr));
+}
+
+.grid-template-rows-14 {
+    grid-template-rows: repeat(14, minmax(0, 1fr));
+}
+
+.grid-template-rows-15 {
+    grid-template-rows: repeat(15, minmax(0, 1fr));
+}
+
+
+/*GAP*/
+
+.gap-0 {
+    gap: 0px;
+}
+
+.gap-1 {
+    gap: 2px;
+}
+
+.gap-2 {
+    gap: 5px;
+}
+
+.gap-3 {
+    gap: 8px;
+}
+
+.gap-4 {
+    gap: 12px;
+}
+
+.gap-5 {
+    gap: 15px;
+}
+
+.gap-6 {
+    gap: 20px;
+}
+
+.gap-7 {
+    gap: 25px;
+}
+
+.gap-8 {
+    gap: 30px;
+}
+
+.gap-9 {
+    gap: 40px;
+}
+
+
+/*WIDTH*/
+
+.w-half {
+    width: 50%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w1-4-screen {
+    width: 25vh;
+}
+
+.w-half-screen {
+    width: 50vw;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.w-msm {
+    width: 320px;
+}
+
+.w-mmd {
+    width: 375px;
+}
+
+.w-mlg {
+    width: 425px;
+}
+
+
+/*h*/
+
+.h-half {
+    height: 50%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h1-4-screen {
+    height: 25vh;
+}
+
+.h-half-screen {
+    height: 50vh;
+}
+
+.h3-4-screen {
+    height: 75vh;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+
+/*BACKGROUND-COLOR: RED COLOR*/
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-red-p5 {
+    background-color: rgb(255, 25, 25);
+}
+
+.bg-red-1 {
+    background-color: rgb(255, 50, 50);
+}
+
+.bg-red-2 {
+    background-color: rgb(255, 60, 60);
+}
+
+.bg-red-3 {
+    background-color: rgb(255, 70, 70);
+}
+
+.bg-red-4 {
+    background-color: rgb(255, 80, 80);
+}
+
+.bg-red-5 {
+    background-color: rgb(255, 90, 90);
+}
+
+.bg-red-6 {
+    background-color: rgb(255, 100, 100);
+}
+
+.bg-red-7 {
+    background-color: rgb(255, 110, 110);
+}
+
+.bg-red-8 {
+    background-color: rgb(255, 120, 120);
+}
+
+.bg-red-9 {
+    background-color: rgb(255, 135, 135);
+}
+
+.bg-red-10 {
+    background-color: rgb(255, 150, 150);
+}
+
+
+/*BACKGROUND-COLOR: GREEN COLOR*/
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-green-p5 {
+    background-color: rgb(25, 255, 25);
+}
+
+.bg-green-1 {
+    background-color: rgb(50, 255, 50);
+}
+
+.bg-green-2 {
+    background-color: rgb(60, 255, 60);
+}
+
+.bg-green-3 {
+    background-color: rgb(70, 255, 70);
+}
+
+.bg-green-4 {
+    background-color: rgb(80, 255, 80);
+}
+
+.bg-green-5 {
+    background-color: rgb(90, 255, 90);
+}
+
+.bg-green-6 {
+    background-color: rgb(100, 255, 100);
+}
+
+.bg-green-7 {
+    background-color: rgb(110, 255, 110);
+}
+
+.bg-green-8 {
+    background-color: rgb(120, 255, 120);
+}
+
+.bg-green-9 {
+    background-color: rgb(135, 255, 135);
+}
+
+.bg-green-10 {
+    background-color: rgb(150, 255, 150);
+}
+
+
+/*BACKGROUND-COLOR: BLUE COLOR*/
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-blue-p5 {
+    background-color: rgb(25, 25, 255);
+}
+
+.bg-blue-1 {
+    background-color: rgb(50, 50, 255);
+}
+
+.bg-blue-2 {
+    background-color: rgb(60, 60, 255);
+}
+
+.bg-blue-3 {
+    background-color: rgb(70, 70, 255);
+}
+
+.bg-blue-4 {
+    background-color: rgb(80, 80, 255);
+}
+
+.bg-blue-5 {
+    background-color: rgb(90, 90, 255);
+}
+
+.bg-blue-6 {
+    background-color: rgb(100, 100, 255);
+}
+
+.bg-blue-7 {
+    background-color: rgb(110, 110, 255);
+}
+
+.bg-blue-8 {
+    background-color: rgb(120, 120, 255);
+}
+
+.bg-blue-9 {
+    background-color: rgb(135, 135, 255);
+}
+
+.bg-blue-10 {
+    background-color: rgb(150, 150, 255);
+}
+
+
+/*BACKGROUND-COLOR: VIOLET COLOR*/
+
+.bg-violet {
+    background-color: violet;
+}
+
+.bg-violet-p5 {
+    background-color: rgb(255, 25, 255);
+}
+
+.bg-violet-1 {
+    background-color: rgb(255, 50, 255);
+}
+
+.bg-violet-2 {
+    background-color: rgb(255, 60, 255);
+}
+
+.bg-violet-3 {
+    background-color: rgb(255, 70, 255);
+}
+
+.bg-violet-4 {
+    background-color: rgb(255, 80, 255);
+}
+
+.bg-violet-5 {
+    background-color: rgb(255, 90, 255);
+}
+
+.bg-violet-6 {
+    background-color: rgb(255, 100, 255);
+}
+
+.bg-violet-7 {
+    background-color: rgb(255, 110, 255);
+}
+
+.bg-violet-8 {
+    background-color: rgb(255, 120, 255);
+}
+
+.bg-violet-9 {
+    background-color: rgb(255, 135, 255);
+}
+
+.bg-violet-10 {
+    background-color: rgb(255, 150, 255);
+}
+
+
+/*BACKGROUND-COLOR: AQUA COLOR*/
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bg-aqua-p5 {
+    background-color: rgb(25, 255, 255);
+}
+
+.bg-aqua-1 {
+    background-color: rgb(50, 255, 255);
+}
+
+.bg-aqua-2 {
+    background-color: rgb(60, 255, 255);
+}
+
+.bg-aqua-3 {
+    background-color: rgb(70, 255, 255);
+}
+
+.bg-aqua-4 {
+    background-color: rgb(80, 255, 255);
+}
+
+.bg-aqua-5 {
+    background-color: rgb(90, 255, 255);
+}
+
+.bg-aqua-6 {
+    background-color: rgb(100, 255, 255);
+}
+
+.bg-aqua-7 {
+    background-color: rgb(110, 255, 255);
+}
+
+.bg-aqua-8 {
+    background-color: rgb(120, 255, 255);
+}
+
+.bg-aqua-9 {
+    background-color: rgb(135, 255, 255);
+}
+
+.bg-aqua-10 {
+    background-color: rgb(150, 255, 255);
+}
+
+
+/*Z-INDEX*/
+
+.z--1 {
+    z-index: -1;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.z-4 {
+    z-index: 4;
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+
+/*FONT-SIZE*/
+
+.font-size-xs {
+    font-size: 0.75rem;
+}
+
+.font-size-sm {
+    font-size: 0.875rem;
+}
+
+.font-size-base {
+    font-size: 1rem;
+}
+
+.font-size-lg {
+    font-size: 1.125rem;
+}
+
+.font-size-xl {
+    font-size: 1.25rem;
+}
+
+.font-size-2xl {
+    font-size: 1.5rem;
+}
+
+.font-size-3xl {
+    font-size: 1.875rem;
+}
+
+.font-size-4xl {
+    font-size: 2.25rem;
+}
+
+.font-size-5xl {
+    font-size: 3rem;
+}
+
+.font-size-6xl {
+    font-size: 3.75rem;
+}
+
+.font-size-7xl {
+    font-size: 4.5rem;
+}
+
+.font-size-8xl {
+    font-size: 6rem;
+}
+
+.font-size-9xl {
+    font-size: 48rem;
+}
+
+
+/*FONT-WEIGHT*/
+
+.font-w-100 {
+    font-weight: 100;
+}
+
+.font-w-200 {
+    font-weight: 200;
+}
+
+.font-w-300 {
+    font-weight: 300;
+}
+
+.font-w-400 {
+    font-weight: 400;
+}
+
+.font-w-500 {
+    font-weight: 500;
+}
+
+.font-w-600 {
+    font-weight: 600;
+}
+
+.font-w-700 {
+    font-weight: 700;
+}
+
+.font-w-800 {
+    font-weight: 800;
+}
+
+.font-w-9900 {
+    font-weight: 900;
+}
